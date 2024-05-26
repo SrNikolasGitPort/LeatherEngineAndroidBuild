@@ -15,7 +15,7 @@ class Main extends Sprite {
 
 		addChild(new FlxGame(0, 0, states.TitleState, 60, 60, true));
 
-		#if !mobile
+		#ifmobile
 		display = new SimpleInfoDisplay(8, 3, 0xFFFFFF, "_sans");
 		addChild(display);
 		#end
