@@ -7,6 +7,7 @@ import openfl.utils.AssetType;
 import openfl.utils.Assets as OpenFlAssets;
 
 class Paths {
+	#ifmobile
 	inline public static var SOUND_EXT = #if web "mp3" #else "ogg" #end;
 	inline public static var VIDEO_EXT = "mp4";
 
